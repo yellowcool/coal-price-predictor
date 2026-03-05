@@ -1,18 +1,17 @@
+/** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       colors: {
-        primary: '#1E3A5F',
-        accent: '#F59E0B',
-        'light-bg': '#F8FAFC',
-      },
-      fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
-      },
+        'coal-red': '#DC2626',
+        'coal-green': '#16A34A',
+        'coal-dark': '#1C1917',
+        'coal-gray': '#78716C',
+      }
     },
   },
   plugins: [],
