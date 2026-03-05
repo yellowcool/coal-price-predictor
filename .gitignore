@@ -17,7 +17,13 @@ Thumbs.db
 # Build output
 dist/
 build/
+frontend/.vite/
 
 # Environment
 .env
 .env.local
+
+# Local screenshots / debug scripts
+frontend/screenshot*.png
+frontend/*screenshot*.js
+frontend/coal-dashboard.png
