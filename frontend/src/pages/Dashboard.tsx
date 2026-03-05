@@ -89,7 +89,7 @@ const Dashboard: React.FC = () => {
           <p className="text-stone-400">基于 AI 大模型 + 量化模型融合分析，预测未来一旬（10天）价格走势</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="space-y-6">
           {unlockedSKUs.map((sku) => (
             <SKUCard
               key={sku.id}
